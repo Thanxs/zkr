@@ -1,0 +1,11 @@
+.auth {
+  width: 500px;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: #303030;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+}
