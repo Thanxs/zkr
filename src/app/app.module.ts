@@ -9,11 +9,13 @@ import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AuthModule } from './components/auth/auth.module';
 import { AutocompleteOffDirective } from './directives/autocomplete-off.directive';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AutocompleteOffDirective,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,

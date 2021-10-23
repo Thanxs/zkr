@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  height: 80px;
+  color: #ffffff;
+  justify-content: space-between;
+  background-color: #303030;
+  padding: 5px;
+
+  &__login-link {
+    color: #ffffff;
+    font-size: 32px;
+  }
+}

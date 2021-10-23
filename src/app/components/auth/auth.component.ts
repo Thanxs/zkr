@@ -5,7 +5,7 @@ import { AuthActions } from './action-types';
 import { AuthState } from './reducers/index';
 
 @Component({
-  selector: 'app-auth',
+  selector: 'zkr-auth',
   templateUrl: './auth.component.html',
   styleUrls: ['./auth.component.scss']
 })
